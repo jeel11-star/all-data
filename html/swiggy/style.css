@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 17px 100px;
+}
+
+#icon{
+    display: flex;
+    align-items: center;
+}
+
+.foods div {
+    display: inline-flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+nav select {
+    border: none;
+    margin-left: 30px
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows {
+
+    margin: 35px 220px;
+
+}
+
+.arrows button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(182, 185, 188);
+    margin: 0 10px;
+}
+
+.foods {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    width: 120px;
+    height: 240px;
+    padding: 15px;
+    margin: 20px 165px;
+}
+
+.text-1 {
+    margin: 35px 198px;
+}
+
+.cards {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 250px;
+}
+
+.card h4,p{
+    margin: 10px 15px; 
+}
+
+.bg{
+    width: 100%;
+    height: 150px;
+    background: url(./satkar.avif)no-repeat center;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    align-items: end;
+    padding: 10px;
+    color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+}
+
+#menu{
+    width: 75%;
+    margin: 30px auto;
+}
+
+#last-buttons{
+    margin: 30px 0;
+}
+.buttons-1{
+    padding: 8px  25px;
+    margin: 0 10px;
+    background-color:transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 3px;
+    border-radius: 20px;
+}
+
+.cards2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards2 p{
+    margin-left: 0;
+    display: inline-flex;
+}
+
+.lorem-1{
+    color: gray;
+}
+
+
+#lastsection{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.btns{
+    margin: 20px;
+    display: flex;
+
+}
+
+.btns div{
+    border: none;
+    padding: 20px 50px;
+    margin: 20px 55px;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+}

@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-1 {
+    height: 30px;
+    margin: 20px 30px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 12px;
+}
+
+nav img {
+    width: 100px;
+    color: black;
+    margin: 10px;
+    background-color: black;
+}
+
+.afterLogo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#icons {
+    margin: 25px 20px;
+}
+
+#main-1 {
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+}
+
+
+.left {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 45%;
+    left: -5%;
+}
+
+#right {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 45%;
+    right: -5%;
+}
+
+
+.imgs img {
+    width: 300px;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0;
+    width: 100%;
+    overflow: scroll;
+}
+
+.imgs div {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 12px;
+    margin: 25px 15px;
+}
+
+.imgs::-webkit-scrollbar {
+    display: none;
+}
+
+
+.inp-box {
+    height: fit-content;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+
+.inp-box input {
+    border: none;
+}
+
+#smallsection {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+#smallsection h3 {
+    font-size: 30px;
+}
+
+.smalldiv {
+    display: flex;
+    border-radius: 12px;
+
+}
+
+
+
+
+.smallcards img {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    width: 200px;
+}
+
+.smallcards {
+    margin: 10px;
+
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 12px
+}
+
+#mainheading{
+    margin: 20px 0;
+}
+
+#photos{
+    position: relative;
+}
+#lastsection{
+    position: relative;
+}
+
+#thirdsection-1{
+    width: 78%;
+    margin: 0 auto;
+}
+
+.thirdsection-2{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    overflow: scroll;
+}
+
+.thirdsection-2::-webkit-scrollbar{
+    display: none;
+}
+
+.thirdsection{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 12px
+}
+
+
+
+.thirdsection img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+#hero{
+    width: 78%;
+    margin: 0 auto;
+}
+
+#heroheading{
+    margin: 20px 0;
+}
+
+.Artists{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+}
+.Artists::-webkit-scrollbar{
+    display: none;
+}
+
+.Artists-1 img{
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#lastsection{
+    width: 78%;
+    margin: 0 auto;
+}
+
+#lastheading{
+    margin: 20px;
+}
+
+
+#footersection{
+    margin: 30px 0;
+    background-color: black;
+
+}
+.footermaindiv img{
+    width: 150px;
+    margin: 20px;
+
+}
+
+#lastsection{
+    width: 78%;
+    margin: 0 auto;
+}
+
+.footermaindiv{
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.footerbutton button{
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 0 20px;
+}
+.footerimg img{
+    width: 200px;
+    margin: 20px;
+}
+
+.iconfooter{
+     display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.iconfooter p{
+    color: white;
+}
+.iconfooter-1{
+
+    margin: 20px 40px;
+}
+
+.iconfooter i{
+    color: white;
+
+}

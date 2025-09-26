@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
+    padding: 5px;
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin:0 20px;
+    
+    
+}
+.navdiv h2{
+    padding: 10px;
+    transition: .3s all;
+}
+.navdiv h2:hover{
+    background-color: aliceblue;
+}
+#buttons button{
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+    transition: .3s all;
+    font-size: large;
+}
+#buttons button:hover{
+    transform: scale(1.1);
+    color: orange;
+    background-color: aliceblue;
+
+}
+#section-1{
+    width: 100%;
+    margin: 0 auto;
+}
+.section-1div{
+    background-image: url(1.jpg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.section-1div h1{
+    position: absolute;
+    top: 95%;
+    left: 2%;
+}
+#section-2{
+    width: 75%;
+    margin: 0 auto;
+}
+.section-2div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section-2div img{
+    width: 500px;
+    margin: 65px;
+}
+.reviews-1 h2{
+    margin: 50px;
+}
+.reviews-1 h5{
+    margin: 10px;
+}
+.reviews-1 p{
+    margin: 20px;
+    
+}
+#unique{
+    color: gray;
+}
+#section-3{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+}
+.section-3div{
+    margin: 65px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-3div h1{
+    padding: 30px;
+    text-align: center;
+    
+}
+.section-3div h4{
+    font-size: 25px;
+    padding: 30px 0;
+}
+.section-3div p{color: gray;}
+
+#section-3 img{
+    margin: 20px;
+}
+
+#section-4{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.section-4div p{
+    margin: 20px;
+}
+.section-4div h5{
+    margin: 25px;
+}
+input{
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;  
+}
+#iconss-1{
+    display: none;
+}
+.section-4div button{
+    padding: 15px;
+    margin: 10px;
+    font-size: large;
+    border: none;
+    transition: .3s all;
+}
+.section-4div button:hover{
+    transform: scale(1.1);
+    background-color: black;    
+    color: white;
+}
+
+@media (max-width:1200px) {
+    .reviews-1 p{
+        text-wrap: wrap;
+    }
+    
+}
+@media (max-width:1100px) {
+    .section-2div{
+        display: block;
+    }
+    .section-2div img{
+        width: 70%;
+    }
+    .reviews-1 h2{
+        margin: 25px;
+    }
+    #section-3{
+        display: block;
+    }
+}
+@media (max-width:768px) {
+    #section-3 img{
+        width: 80%;
+    }
+}
+@media (max-width:568px) {
+    #buttons{
+        display: none;
+
+    }
+    #iconss-1{
+        display: block;
+    }
+    #section-3{
+        padding: 0;
+    }
+}

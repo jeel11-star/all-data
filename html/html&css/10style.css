@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:rgb(0, 0, 0); */
+  
+    padding: 10px;
+   
+ transition: .3s all;
+
+}
+nav:hover{
+    background-color: red;
+    
+
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+nav div h1{
+    margin: 25px;
+
+}
+
+
+nav i{
+    font-size: 20px;
+    margin: 0 20px;
+    transition: .3s all;
+}
+
+nav i:hover{
+    background-color: white;
+    border-radius: 2px;
+}
+
+nav div button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    background-color:transparent;
+    color: black;
+    transition: .3s all;
+    margin: 25px;
+    border-radius: 5px;
+   border: 10px;
+   border-color: black;
+
+}
+
+nav div button:hover{
+    background-color: white;
+    color: red;
+}
+
+nav input{
+    border-radius: 3px;
+    margin: 25PX;
+    /* padding: 2px; */
+    transition: scale(1.5);
+}
+nav input:hover{
+    transform: scale(1.2);
+}
+
+nav div select{
+    margin: 25px
+    
+}

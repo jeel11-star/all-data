@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* div{
+    width: 500px;
+    height: 500px;
+    background-color: bisque;
+    padding: 250px;
+    margin: 150px;
+    border-radius: 50%;
+} */
+
+
+/* .A1{
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+    border: 20px double black;
+    border-radius: 20%;
+} */
+
+
+div{
+    background: url(pexels-pixabay-45853.jpg)no-repeat center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+
+

@@ -1,0 +1,12 @@
+#section-1{
+    background-image: url(21.jpg);
+     width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+.section-1div{
+    position: absolute;
+    top: 95%;
+    left: 2%;
+}

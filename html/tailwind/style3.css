@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navigation{
+    display: flex;
+
+}
+.nav-a{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px 25px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+#options{
+    font-weight: 700;
+    margin: 10px;
+}
+#iconnav{
+    margin: 25px;
+}
+.descriptions{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 25px 364px;
+    
+}
+#h1{
+    margin: 15px;
+}
+#h6{
+    margin: 15px;
+}
+.maindiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0 35px;
+}
+
+
+.images{
+    width: 300px;
+    display: flex;
+
+}
+.section-2{
+    margin: 40px 0;
+    background-color: black;
+}
+.sectiondiv-2{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.sectiondiv-2 h1{
+    margin: 30px;
+    color: white;
+}
+.sectiondiv-2 p{
+    color: white;
+}
+.inputtext{
+    
+    margin: 10px 10%;    
+    padding: 10px 30% 10px 0;
+}
+.cardstext{
+    margin: 15px;
+    color: rgb(0, 0, 0);
+
+}
+.cards{
+    width: 300px;
+    background-color: white;
+}
+.cards img{
+    width: 100%;
+}
+#paragraph{
+    margin: 20px 0;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+}

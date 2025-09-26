@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+p{
+     font-family: "Bitcount", system-ui;
+
+}
+div{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+
+    /* to make a cricle */
+    border-radius: 50%;
+    border: 12px solid black;
+    border: 12px doteed black;
+ border: 12px double black;
+/* outside space */
+margin: 100px;
+/* inside space */
+padding: 100px;
+box-sizing: border-box;
+
+
+}
+    /* border-bottom: ;
+    border-top: ;
+    border-left: ;
+    border-right: ;
+ */
+
+
+ /* box model
+ margin border padding content
+  */

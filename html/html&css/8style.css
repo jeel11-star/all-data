@@ -1,0 +1,53 @@
+.box{
+    
+    width: 350px;
+    margin: 50px;
+    text-align: center;
+    border: 2px solid black;
+    
+    box-sizing: border-box;
+}
+
+.box img{
+    
+    width: 100%;
+}
+
+.box p{
+    margin: 20px;
+}
+
+.box button{
+    margin-bottom: 5px;
+}
+
+
+.main{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around;
+    justify-content: space-between;
+    flex-direction:column;
+
+ */
+ gap: 40px;
+}
+ /* whenever we apply position absolute to an element we give position relative to its parent */
+ /* position:relative */
+
+.circle{
+    /* position: absolute; */
+    position: fixed;
+    z-index: 70;
+    top: 40%;
+    left: 40%;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 50%;
+}
